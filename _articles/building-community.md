@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Building Welcoming Communities
 description: Building a community that encourages people to use, contribute to, and evangelize your project.
 class: building
@@ -8,6 +9,9 @@ toc:
   resolving-conflicts: "Resolving conflicts"
 order: 4
 image: /assets/images/cards/building.png
+related:
+  - best-practices
+  - coc
 ---
 
 ## Setting your project up for success
@@ -20,7 +24,7 @@ A welcoming community is an investment into your project's future and reputation
 
 One way to think about your project's community is through what @MikeMcQuaid calls the [contributor funnel](https://speakerdeck.com/mikemcquaid/the-open-source-contributor-funnel):
 
-![contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
+![Contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
 
 As you build your community, consider how someone at the top of the funnel (a potential user) might theoretically make their way to the bottom (an active maintainer). Your goal is to reduce friction at each stage of the contributor experience. When people have easy wins, they will feel incentivized to do more.
 
@@ -29,7 +33,7 @@ Start with your documentation:
 * **Make it easy for someone to use your project.** [A friendly README](../starting-a-project/#writing-a-readme) and clear code examples will make it easier for anyone who lands on your project to get started.
 * **Clearly explain how to contribute**, using [your CONTRIBUTING file](../starting-a-project/#writing-your-contributing-guidelines) and keeping your issues up-to-date.
 
-Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
+[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
 
 * **When someone new lands on your project, thank them for their interest!** It only takes one negative experience to make someone not want to come back.
 * **Be responsive.** If you don't respond to their issue for a month, chances are, they've already forgotten about your project.
@@ -37,7 +41,7 @@ Good documentation invites people to interact with your project. Eventually, som
 * **If there's a contribution you disagree with,** thank them for their idea and [explain why](../best-practices/#learning-to-say-no) it doesn't fit into the scope of the project, linking to relevant documentation if you have it.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/579?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/mikeal?s=180" class="pquote-avatar" alt="avatar">
   Contributing to open source is easier for some than others. There's a lot of fear of being yelled at for not doing something right or just not fitting in. (...) By giving contributors a place to contribute with very low technical proficiency (documentation, web content markdown, etc) you can greatly reduce those concerns.
   <p markdown="1" class="pquote-credit">
 — @mikeal, ["Growing a contributor base in modern open source"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
@@ -51,7 +55,7 @@ Encouraging other contributors is an investment in yourself, too. When you empow
 ### Document everything
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/11321?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/janl?s=180" class="pquote-avatar" alt="avatar">
   Have you ever been to a (tech-) event where you didn't know anyone, but everyone else seemed to stand in groups and chat like old friends? (...) Now imagine you want to contribute to an open source project, but you don't see why or how this is happening.
   <p markdown="1" class="pquote-credit">
 — @janl, ["Sustainable Open Source"](http://writing.jan.io/2015/11/20/sustainable-open-source.html)
@@ -80,7 +84,7 @@ Try to be responsive when someone files an issue, submits a pull request, or ask
 
 Even if you can't review the request immediately, acknowledging it early helps increase engagement. Here's how @tdreyno responded to a pull request on [Middleman](https://github.com/middleman/middleman/pull/1466):
 
-![middleman pull request](/assets/images/building-community/middleman_pr.png)
+![Middleman pull request](/assets/images/building-community/middleman_pr.png)
 
 [A Mozilla study found that](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) contributors who received code reviews within 48 hours had a much higher rate of return and repeat contribution.
 
@@ -113,7 +117,7 @@ Any popular project will inevitably attract people who harm, rather than help, y
 Do your best to adopt a zero-tolerance policy towards these types of people. If left unchecked, negative people will make other people in your community uncomfortable. They may even leave.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars0.githubusercontent.com/u/633012?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/karissa?s=180" class="pquote-avatar" alt="avatar">
   The truth is that having a supportive community is key. I'd never be able to do this work without the help of my colleagues, friendly internet strangers, and chatty IRC channels. (...) Don't settle for less. Don't settle for assholes.
   <p markdown="1" class="pquote-credit">
 — @karissa, ["How to Run a FOSS Project"](https://karissa.github.io/post/okf-de)
@@ -130,9 +134,9 @@ Good documentation only becomes more important as your community grows. Casual c
 
 In your CONTRIBUTING file, explicitly tell new contributors how to get started. You may even want to make a dedicated section for this purpose. [Django](https://github.com/django/django), for example, has a special landing page to welcome new contributors.
 
-![django new contributors page](/assets/images/building-community/django_new_contributors.png)
+![Django new contributors page](/assets/images/building-community/django_new_contributors.png)
 
-In your issue queue, label bugs that are suitable for different types of contributors: for example, [_"first timers only"_](https://medium.com/@kentcdodds/first-timers-only-78281ea47455#.g1k01jy05), _"good first bug"_, or _"documentation"_. [These labels](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) make it easy for someone new to your project to quickly scan your issues and get started.
+In your issue queue, label bugs that are suitable for different types of contributors: for example, [_"first timers only"_](https://medium.com/@kentcdodds/first-timers-only-78281ea47455#.g1k01jy05), _"good first issue"_, or _"documentation"_. [These labels](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) make it easy for someone new to your project to quickly scan your issues and get started.
 
 Finally, use your documentation to make people feel welcome at every step of the way.
 
@@ -145,7 +149,7 @@ For example, here's how [Rubinius](https://github.com/rubinius/rubinius/) starts
 ### Share ownership of your project
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/270108?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/sarahsharp?s=180" class="pquote-avatar" alt="avatar">
   Your leaders will have different opinions, as all healthy communities should! However, you need to take steps to ensure the loudest voice doesn't always win by tiring people out, and that less prominent and minority voices are heard.
   <p markdown="1" class="pquote-credit">
 — @sarahsharp, ["What makes a good community?"](http://sarah.thesharps.us/2015/10/06/what-makes-a-good-community/)
@@ -158,13 +162,13 @@ See if you can find ways to share ownership with your community as much as possi
 
 * **Resist fixing easy (non-critical) bugs.** Instead, use them as opportunities to recruit new contributors, or mentor someone who'd like to contribute. It may seem unnatural at first, but your investment will pay off over time. For example, @michaeljoseph asked a contributor to submit a pull request on a [Cookiecutter](https://github.com/audreyr/cookiecutter) issue below, rather than fix it himself.
 
-![cookiecutter issue](/assets/images/building-community/cookiecutter_submit_pr.png)
+![Cookiecutter issue](/assets/images/building-community/cookiecutter_submit_pr.png)
 
 * **Start a CONTRIBUTORS or AUTHORS file in your project** that lists everyone who's contributed to your project, like [Sinatra](https://github.com/sinatra/sinatra/blob/master/AUTHORS.md) does.
 
-* If you've got a sizeable community, **send out a newsletter or write a blog post** thanking contributors. Rust's [This Week in Rust](https://this-week-in-rust.org/) and Hoodie's [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html) are two good examples.
+* If you've got a sizable community, **send out a newsletter or write a blog post** thanking contributors. Rust's [This Week in Rust](https://this-week-in-rust.org/) and Hoodie's [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html) are two good examples.
 
-* **Give every contributor commit access.** @felixge found that this made people [more excited to polish their patches](http://felixge.de/2013/03/11/the-pull-request-hack.html), and he even found new maintainers for projects that he hadn't worked on in awhile.
+* **Give every contributor commit access.** @felixge found that this made people [more excited to polish their patches](https://felixge.de/2013/03/11/the-pull-request-hack.html), and he even found new maintainers for projects that he hadn't worked on in awhile.
 
 * If your project is on GitHub, **move your project from your personal account to an [Organization](https://help.github.com/articles/creating-a-new-organization-account/)** and add at least one backup admin. Organizations make it easier to work on projects with external collaborators.
 
@@ -173,7 +177,7 @@ The reality is that [most projects only have](https://peerj.com/preprints/1233.p
 While you may not always find someone to answer the call, putting a signal out there increases the chances that other people will pitch in. And the earlier you start, the sooner people can help.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars0.githubusercontent.com/u/39992?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/gr2m?s=180" class="pquote-avatar" alt="avatar">
   \[It's in your\] best interest to recruit contributors who enjoy and who are capable of doing the things that you are not. Do you enjoy coding, but not answering issues? Then identify those individuals in your community who do and let them have it.
   <p markdown="1" class="pquote-credit">
 — @gr2m, ["Welcoming Communities"](http://hood.ie/blog/welcoming-communities.html)
@@ -195,7 +199,7 @@ When your community is grappling with a difficult issue, tempers may rise. Peopl
 Your job as a maintainer is to keep these situations from escalating. Even if you have a strong opinion on the topic, try to take the position of a moderator or facilitator, rather than jumping into the fight and pushing your views. If someone is being unkind or monopolizing the conversation, [act immediately](../building-community/#dont-tolerate-bad-actors) to keep discussions civil and productive.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/119893?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/kennethreitz?s=180" class="pquote-avatar" alt="avatar">
   As a project maintainer, it's extremely important to be respectful to your contributors. They often take what you say very personally.
   <p markdown="1" class="pquote-credit">
 — @kennethreitz, ["Be Cordial or Be on Your Way"](https://www.kennethreitz.org/essays/be-cordial-or-be-on-your-way)
@@ -214,14 +218,14 @@ Your README is [more than just a set of instructions](../starting-a-project/#wri
 
 Some projects use a voting process to make major decisions. While sensible at first glance, voting emphasizes getting to an "answer," rather than listening to and addressing each other's concerns.
 
-Voting can become political, where community members feel pressured to do each other favors or vote a certain way. Not everybody votes, either, whether it's the [silent majority](http://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) in your community, or current users who didn't know a vote was taking place.
+Voting can become political, where community members feel pressured to do each other favors or vote a certain way. Not everybody votes, either, whether it's the [silent majority](https://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) in your community, or current users who didn't know a vote was taking place.
 
 Sometimes, voting is a necessary tiebreaker. As much as you are able, however, emphasize ["consensus seeking"](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making) rather than consensus.
 
 Under a consensus seeking process, community members discuss major concerns until they feel they have been adequately heard. When only minor concerns remain, the community moves forward. "Consensus seeking" acknowledges that a community may not be able to reach a perfect answer. Instead, it prioritizes listening and discussion.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/1038121?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/lee-dohm?s=180" class="pquote-avatar" alt="avatar">
   Part of the reason why a voting system doesn't exist for Atom Issues is because the Atom team isn't going to follow a voting system in all cases. Sometimes we have to choose what we feel is right even if it is unpopular. (...) What I can offer and pledge to do...is that it is my job to listen to the community.
   <p markdown="1" class="pquote-credit">
 — @lee-dohm on [Atom's decisionmaking process](https://discuss.atom.io/t/prioritize-issues-feature-requests-based-on-voting-system/27642/2)
@@ -247,8 +251,8 @@ If the conversation is starting to unravel, ask the group, _"Which steps should 
 If a conversation clearly isn't going anywhere, there are no clear actions to be taken, or the appropriate action has already been taken, close the issue and explain why you closed it.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars1.githubusercontent.com/u/401111?v=3&s=400" class="pquote-avatar" alt="avatar">
-  Guiding a thread toward usefulness without being pushy is an art. It won't work to simply admonish people to stop wasting their time, or to ask them not to post unless they have something constructive to say. (...) Instead, you have to suggest conditions for further progress: give people a route, a path to follow that leads to the results you want, yet without sounding like you're dictating conduct.  
+  <img src="https://avatars.githubusercontent.com/kfogel?s=180" class="pquote-avatar" alt="avatar">
+  Guiding a thread toward usefulness without being pushy is an art. It won't work to simply admonish people to stop wasting their time, or to ask them not to post unless they have something constructive to say. (...) Instead, you have to suggest conditions for further progress: give people a route, a path to follow that leads to the results you want, yet without sounding like you're dictating conduct.
   <p markdown="1" class="pquote-credit">
 — @kfogel, [_Producing OSS_](http://producingoss.com/en/producingoss.html#common-pitfalls)
   </p>

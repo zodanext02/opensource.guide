@@ -1,5 +1,8 @@
 # Each piece of content has YAML front matter with these properties:
 
+lang:
+  type: String
+
 layout:
   type: String
 
@@ -23,3 +26,9 @@ order:
   type: Integer
 
 image: {}
+
+related:
+  type: Array
+
+untranslated:
+  type: TrueClass

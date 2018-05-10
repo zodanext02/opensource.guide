@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Getting Paid for Open Source Work
 description: Sustain your work in open source by getting financial support for your time or your project.
 class: getting-paid
@@ -9,6 +10,9 @@ toc:
   building-a-case-for-financial-support: "Building a case for financial support"
 order: 7
 image: /assets/images/cards/getting-paid.png
+related:
+  - best-practices
+  - leadership
 ---
 
 ## Why some people seek financial support
@@ -16,7 +20,7 @@ image: /assets/images/cards/getting-paid.png
 Much of open source work is volunteered. For example, someone might come across a bug in a project they use and submit a quick fix, or they might enjoy tinkering with an open source project in their spare time.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/2894642?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/gvanrossum?s=180" class="pquote-avatar" alt="avatar">
 I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. (...) I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately. (...) I chose Python as a working title.
   <p markdown="1" class="pquote-credit">
 — @gvanrossum, ["Programming Python"](https://www.python.org/doc/essays/foreword/)
@@ -30,10 +34,10 @@ There are many reasons why a person would not want to be paid for their open sou
 * **They get other benefits from contributing to open source,** such as building their reputation or portfolio, learning a new skill, or feeling closer to a community.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars1.githubusercontent.com/u/2320?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/alloy?s=180" class="pquote-avatar" alt="avatar">
   Financial donations do add a feeling of responsibility, for some. (...) It's important for us, in the globally connected, fast-paced world we live in, to be able to say "not now, I feel like doing something completely different".
   <p markdown="1" class="pquote-credit">
-— @alloy, ["Why We Don't Accept Donations"](http://blog.cocoapods.org/Why-we-dont-accept-donations/)
+— @alloy, ["Why We Don't Accept Donations"](https://blog.cocoapods.org/Why-we-dont-accept-donations/)
   </p>
 </aside>
 
@@ -42,7 +46,7 @@ For others, especially when contributions are ongoing or require significant tim
 Maintaining popular projects can be a significant responsibility, taking up 10 or 20 hours per week instead of a few hours per month.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/381411?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/ashedryden?s=180" class="pquote-avatar" alt="avatar">
   Ask any open source project maintainer, and they will tell you about the reality of the amount of work that goes into managing a project. You have clients. You are fixing issues for them. You are creating new features. This becomes a real demand on your time.
   <p markdown="1" class="pquote-credit">
 — @ashedryden, ["The Ethics of Unpaid Labor and the OSS Community"](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community)
@@ -52,7 +56,7 @@ Maintaining popular projects can be a significant responsibility, taking up 10 o
 Paid work also enables people from different walks of life to make meaningful contributions. Some people cannot afford to spend unpaid time on open source projects, based on their current financial position, debt, or family or other caretaking obligations. That means the world never sees contributions from talented people who can't afford to volunteer their time. This has ethical implications, as @ashedryden [has described](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community), since work that is done is biased in favor of those who already have advantages in life, who then gain additional advantages based on their volunteer contributions, while others who are not able to volunteer then don't get later opportunities, which reinforces the current lack of diversity in the open source community.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/9287?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/isaacs?s=180" class="pquote-avatar" alt="avatar">
    OSS yields massive benefits to the technology industry, which, in turn, means benefits to all industries. (...) However, if the only people who can focus on it are the lucky and the obsessed, then there's a huge untapped potential.
   <p markdown="1" class="pquote-credit">
 — @isaacs, ["Money and Open Source"](https://medium.com/open-source-life/money-and-open-source-d44a1953749c#.ftnd5qez0)
@@ -68,7 +72,7 @@ Today, many people get paid to work part- or full-time on open source. The most 
 It's easier to make a case for open source work if your employer actually uses the project, but get creative with your pitch. Maybe your employer doesn't use the project, but they use Python, and maintaining a popular Python project help attract new Python developers. Maybe it makes your employer look more developer-friendly in general.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/588473?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/hzoo?s=180" class="pquote-avatar" alt="avatar">
   Like many in open source, I was struggling with the burden of maintaining a project. When I first started doing open source, I used to just stay late to work on it or right when I got home. (...) I was able to discuss with my boss the issues I was facing and we came up with ideas on how we could incorporate open source tasks given our own use of Babel.
   <p markdown="1" class="pquote-credit">
 — @hzoo, ["Maintainer Stories"](https://github.com/open-source/stories/hzoo)
@@ -79,14 +83,14 @@ If you don't have an existing open source project you'd like to work on, but wou
 
 Many companies are developing open source programs to build their brand and recruit quality talent.
 
-@hueniverse, for example, found that there were financial reasons to justify [Walmart's investment in open source](https://hueniverse.com/2014/08/15/open-source-aint-charity/). And @jamesgpearce found that Facebook's open source program [made a difference](https://opensource.com/business/14/10/head-of-open-source-facebook-oscon) in recruiting:
+@hueniverse, for example, found that there were financial reasons to justify [Walmart's investment in open source](https://www.infoworld.com/article/2608897/open-source-software/walmart-s-investment-in-open-source-isn-t-cheap.html). And @jamesgpearce found that Facebook's open source program [made a difference](https://opensource.com/business/14/10/head-of-open-source-facebook-oscon) in recruiting:
 
 > It is closely aligned with our hacker culture, and how our organization was perceived. We asked our employees, "Were you aware of the open source software program at Facebook?". Two-thirds said "Yes". One-half said that the program positively contributed to their decision to work for us. These are not marginal numbers, and I hope, a trend that continues.
 
 If your company goes down this route, it's important to keep the boundaries between community and corporate activity clear. Ultimately, open source sustains itself through contributions from people all over the world, and that's bigger than any one company or location.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/1445228?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/jessfraz?s=180" class="pquote-avatar" alt="avatar">
   Getting paid to work on open source is a rare and wonderful opportunity, but you should not have to give up your passion in the process. Your passion should be why companies want to pay you.
   <p markdown="1" class="pquote-credit">
 — @jessfraz, ["Blurred Lines"](https://blog.jessfraz.com/post/blurred-lines/)
@@ -95,14 +99,14 @@ If your company goes down this route, it's important to keep the boundaries betw
 
 If you can't convince your current employer to prioritize open source work, consider finding a new employer that encourages employee contributions to open source. Look for companies that make their dedication to open source work explicit. For example:
 
-* [Ghost](https://ghost.org/) is a company built around [an open source project](https://github.com/tryghost/ghost)
+* Some companies, like [Netflix](https://netflix.github.io/) or [PayPal](https://paypal.github.io/), have websites that highlight their involvement in open source
 * [Rackspace](https://www.rackspace.com/en-us) published its [open source contribution policy](https://blog.rackspace.com/rackspaces-policy-on-contributing-to-open-source/) for employees
 
 Projects that originated at a large company, such as [Go](https://github.com/golang) or [React](https://github.com/facebook/react), will also likely employ people to work on open source.
 
 Finally, depending on your personal circumstances, you can try raising money independently to fund your open source work. For example:
 
-* @gaearon funded his work on [Redux](https://github.com/reactjs/redux) through a [Patreon crowdfunding campaign](http://redux.js.org/)
+* @gaearon funded his work on [Redux](https://github.com/reactjs/redux) through a [Patreon crowdfunding campaign](https://redux.js.org/)
 * @andrewgodwin funded work on Django schema migrations [through a Kickstarter campaign](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
 
 ## Finding funding for your project
@@ -111,17 +115,35 @@ Beyond arrangements for individual contributors, sometimes projects raise money 
 
 Organizational funding might go towards paying current contributors, covering the costs of running the project (such as hosting fees), or investing into new features or ideas.
 
-A few examples of projects with organizational funding include:
+As open source's popularity increases, finding funding for projects is still experimental, but there are a few common options available.
 
-* **[webpack](https://github.com/webpack),** which raises money from companies and individuals [through OpenCollective](https://opencollective.com/webpack)
-* **[Vue](https://github.com/vuejs/vue),** created by @yyx990803, which is [funded through Patreon](https://github.com/open-source/stories/yyx990803)
-* **[Ruby Together](https://rubytogether.org/),** a nonprofit organization created by @indirect that pays for work on [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), and other Ruby infrastructure projects
+### Raise money for your work through crowdfunding campaigns or sponsorships
 
-As open source's popularity increases, finding funding for projects is still experimental. A few current options include:
+Finding sponsorships works well if you have a strong audience or reputation already, or your project is very popular.
+A few examples of sponsored projects include:
 
-* **Raise money for your work through crowdfunding campaigns or donations.** This strategy works well if you have a strong audience or reputation already, or your project is very popular.
-* **Apply for grant funding.** Some software foundations and companies offer grants for open source work, such as the [Python Software Foundation](https://www.python.org/psf/grants/), [Mozilla Foundation](https://www.mozilla.org/en-US/grants/), and [Stripe](https://stripe.com/blog/open-source-retreat-2016).
-* **Raise sponsorships from companies and individual donors** through a software foundation. Or **start a business** to support the project.
+* **[webpack](https://github.com/webpack)** raises money from companies and individuals [through OpenCollective](https://opencollective.com/webpack)
+* **[Vue](https://github.com/vuejs/vue)** is [funded through Patreon](https://github.com/open-source/stories/yyx990803)
+* **[Ruby Together](https://rubytogether.org/),** a nonprofit organization that pays for work on [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), and other Ruby infrastructure projects
+
+### Create a revenue stream
+
+Depending on your project, you may be able to charge for commercial support, hosted options, or additional features. A few examples include:
+
+* **[Sidekiq](https://github.com/mperham/sidekiq)** offers paid versions for additional support
+* **[Travis CI](https://github.com/travis-ci)** offers paid versions of its product
+* **[Ghost](https://github.com/TryGhost/Ghost)** is a nonprofit with a paid managed service
+
+Some popular projects, like [npm](https://github.com/npm/npm) and [Docker](https://github.com/docker/docker), even raise venture capital to support their business growth.
+
+### Apply for grant funding
+
+Some software foundations and companies offer grants for open source work. Sometimes, grants can be paid out to individuals without setting up a legal entity for the project.
+
+* **[Read the Docs](https://github.com/rtfd/readthedocs.org)** received a grant from [Mozilla Open Source Support](https://www.mozilla.org/en-US/grants/)
+* **[OpenMRS](https://github.com/openmrs)** work was funded by [Stripe's Open-Source Retreat](https://stripe.com/blog/open-source-retreat-2016-grantees)
+* **[Libraries.io](https://github.com/librariesio)** received a grant from the [Sloan Foundation](https://sloan.org/programs/digital-technology)
+* The **[Python Software Foundation](https://www.python.org/psf/grants/)** offers grants for Python-related work
 
 For more detailed options and case studies, @nayafia [wrote a guide](https://github.com/nayafia/lemonade-stand) to getting paid for open source work. Different types of funding require different skills, so consider your strengths to figure out which option works best for you.
 
@@ -152,7 +174,7 @@ What, exactly, will you accomplish with the proposed funding? Focus on project m
 Does the funder have any requirements around disbursal? For example, you may need to be a nonprofit or have a nonprofit fiscal sponsor. Or perhaps the funds must be given to an individual contractor rather than an organization. These requirements vary between funders, so be sure to do your research beforehand.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars1.githubusercontent.com/u/1076721?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/davegandy?s=180" class="pquote-avatar" alt="avatar">
   For years, we've been the leading resource of website friendly icons, with a community of over 20 million people and been featured on over 70 million websites, including Whitehouse.gov. (...) Version 4 was three years ago. Web tech's changed a lot since then, and frankly, Font Awesome's gotten a bit stale. (...) That's why we're introducing Font Awesome 5. We're modernizing and rewriting the CSS and redesigning every icon from top to bottom. We're talking better design, better consistency, and better readability.
   <p markdown="1" class="pquote-credit">
 — @davegandy, [Font Awesome Kickstarter video](https://www.kickstarter.com/projects/232193852/font-awesome-5)

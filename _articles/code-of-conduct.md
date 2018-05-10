@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Your Code of Conduct
 description: Facilitate healthy and constructive community behavior by adopting and enforcing a code of conduct.
 class: coc
@@ -9,6 +10,9 @@ toc:
   enforcing-your-code-of-conduct: "Enforcing your code of conduct"
 order: 8
 image: /assets/images/cards/coc.png
+related:
+  - building
+  - leadership
 ---
 
 ## Why do I need a code of conduct?
@@ -30,11 +34,11 @@ In addition to communicating your expectations, a code of conduct describes the 
 * What happens if someone violates the code of conduct
 * How someone can report violations
 
-Wherever you can, use prior art. The [Contributor Covenant](http://contributor-covenant.org/) is a drop-in code of conduct that is used by over 40,000 open source projects, including Kubernetes, Rails, and Swift.
+Wherever you can, use prior art. The [Contributor Covenant](https://contributor-covenant.org/) is a drop-in code of conduct that is used by over 40,000 open source projects, including Kubernetes, Rails, and Swift.
 
 The [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Citizen Code of Conduct](http://citizencodeofconduct.org/) are also two good code of conduct examples.
 
-Place a CODE_OF_CONDUCT file in your project's root directory, and link to it from your README, so it's visible to your community.
+Place a CODE_OF_CONDUCT file in your project's root directory, and make it visible to your community by linking it from your CONTRIBUTING or README file.
 
 ## Deciding how you'll enforce your code of conduct
 

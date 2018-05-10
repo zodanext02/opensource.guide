@@ -1,4 +1,5 @@
 ---
+lang: en
 title: Best Practices for Maintainers
 description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
 class: best-practices
@@ -11,6 +12,9 @@ toc:
   its-okay-to-hit-pause: "It’s okay to hit pause"
 order: 5
 image: /assets/images/cards/best-practices.png
+related:
+  - metrics
+  - leadership
 ---
 
 ## What does it mean to be a maintainer?
@@ -31,6 +35,8 @@ Writing things down makes it easier to say no when something doesn't fit into yo
 
 Even if you don't use full paragraphs, jotting down bullet points is better than not writing at all.
 
+Remember to keep your documentation up-to-date. If you're not able to always do this, delete your outdated documentation or indicate it is outdated so contributors know updates are welcome.
+
 ### Write down your project's vision
 
 Start by writing down the goals of your project. Add them to your README, or create a separate file called VISION. If there are other artifacts that could help, like a project roadmap, make those public as well.
@@ -40,7 +46,7 @@ Having a clear, documented vision keeps you focused and helps you avoid "scope c
 For example, @lord discovered that having a project vision helped him figure out which requests to spend time on. As a new maintainer, he regretted not sticking to his project's scope when he got his first feature request for [Slate](https://github.com/lord/slate).
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars2.githubusercontent.com/u/1976330?v=3&s=460" class="pquote-avatar" alt="avatar" alt="@lord avatar">
+  <img src="https://avatars.githubusercontent.com/lord?s=180" class="pquote-avatar" alt="avatar">
   I fumbled it. I didn't put in the effort to come up with a complete solution. Instead of an half-assed solution, I wish I had said "I don't have time for this right now, but I'll add it to the long term nice-to-have list."
   <p markdown="1" class="pquote-credit">
 — @lord, ["Tips for new open source maintainers"](https://lord.io/blog/2014/oss-tips/)
@@ -63,8 +69,8 @@ Here are a few rules that are worth writing down:
 
 * How a contribution is reviewed and accepted (_Do they need tests? An issue template?_)
 * The types of contributions you'll accept (_Do you only want help with a certain part of your code?_)
-* When it's appropriate to follow up (_ex. "You can expect a response from a maintainer within 7 days. If you haven't heard anything by then, feel free to ping the thread."_)
-* How much time you spend on the project (_ex. "We only spend about 5 hours per week on this project"_)
+* When it's appropriate to follow up (_for example, "You can expect a response from a maintainer within 7 days. If you haven't heard anything by then, feel free to ping the thread."_)
+* How much time you spend on the project (_for example, "We only spend about 5 hours per week on this project"_)
 
 [Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), and [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) are several examples of projects with ground rules for maintainers and contributors.
 
@@ -97,7 +103,7 @@ Regardless of the reason, it is possible to tactfully handle contributions that 
 If you receive a contribution you don't want to accept, your first reaction might be to ignore it or pretend you didn't see it. Doing so could hurt the other person's feelings and even demotivate other potential contributors in your community.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/869950?v=3&s=400" class="pquote-avatar" alt="avatar" alt="@KrauseFx avatar">
+  <img src="https://avatars.githubusercontent.com/krausefx?s=180" class="pquote-avatar" alt="avatar">
   The key to handle support for large-scale open source projects is to keep issues moving. Try to avoid having issues stall. If you're an iOS developer you know how frustrating it can be to submit radars. You might hear back 2 years later, and are told to try again with the latest version of iOS.
   <p markdown="1" class="pquote-credit">
 — @KrauseFx, ["Scaling open source communities"](https://krausefx.com/blog/scaling-open-source-communities)
@@ -119,7 +125,7 @@ If you don't want to accept a contribution:
 
 You shouldn't need more than 1-2 sentences to respond. For example, when a user of [celery](https://github.com/celery/celery/) reported a Windows-related error, @berkerpeksag [responded with](https://github.com/celery/celery/issues/3383):
 
-![celery screenshot](/assets/images/best-practices/celery.png)
+![Celery screenshot](/assets/images/best-practices/celery.png)
 
 If the thought of saying no terrifies you, you're not alone. As @jessfraz [put it](https://blog.jessfraz.com/post/the-art-of-closing/):
 
@@ -143,10 +149,10 @@ If they don't follow your rules, close the issue immediately and point to your d
 While this approach may feel unkind at first, being proactive is actually good for both parties. It reduces the chance that someone will put in many wasted hours of work into a pull request that you aren't going to accept. And it makes your workload easier to manage.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars0.githubusercontent.com/u/125011" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
   Ideally, explain to them and in a CONTRIBUTING.md file how they can get a better indication in the future on what would or would not be accepted before they begin the work.
   <p markdown="1" class="pquote-credit">
-— @mikemcquaid, ["Kindly Closing Pull Requests"](https://github.com/blog/2124-kindly-closing-pull-requests)
+— @MikeMcQuaid, ["Kindly Closing Pull Requests"](https://github.com/blog/2124-kindly-closing-pull-requests)
   </p>
 </aside>
 
@@ -156,7 +162,7 @@ Sometimes, when you say no, your potential contributor may get upset or criticiz
 
 Maybe someone in your community regularly submits contributions that don't meet your project's standards. It can be frustrating for both parties to repeatedly go through rejections.
 
-If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first bug,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
+If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first issue,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
 
 ## Leverage your community
 
@@ -171,10 +177,10 @@ When you see new contributors making repeated contributions, recognize their wor
 Encouraging others to [share ownership of the project](../building-community/#share-ownership-of-your-project) can greatly reduce your own workload, as @lmccart discovered on her project, [p5.js](https://github.com/processing/p5.js?files=1).
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/191056?v=3&s=460" class="pquote-avatar" alt="avatar">
-  I’d been saying, “Yeah, anyone can be involved, you don’t have to have a lot of coding expertise [...].” We had people sign up to come [to an event] and that’s when I was really wondering: is this true, what I’ve been saying? There are gonna be 40 people who show up, and it’s not like I can sit with each of them...But people came together, and it just sort of worked. As soon as one person got it, they could teach their neighbor.
+  <img src="https://avatars.githubusercontent.com/lmccart?s=180" class="pquote-avatar" alt="avatar">
+  I’d been saying, "Yeah, anyone can be involved, you don’t have to have a lot of coding expertise [...]." We had people sign up to come [to an event] and that’s when I was really wondering: is this true, what I’ve been saying? There are gonna be 40 people who show up, and it’s not like I can sit with each of them...But people came together, and it just sort of worked. As soon as one person got it, they could teach their neighbor.
   <p markdown="1" class="pquote-credit">
-—  @lmccart, ["What Does “Open Source” Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39#.chnjlag7p)
+—  @lmccart, ["What Does "Open Source" Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39#.chnjlag7p)
   </p>
 </aside>
 
@@ -193,14 +199,14 @@ If a potential contributor has a different opinion on what your project should d
 Forking a project doesn't have to be a bad thing. Being able to copy and modify projects is one of the best things about open source. Encouraging your community members to work on their own fork can provide the creative outlet they need, without conflicting with your project's vision.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars1.githubusercontent.com/u/481677?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/geerlingguy?s=180" class="pquote-avatar" alt="avatar">
   I cater to the 80% use case. If you are one of the unicorns, please fork my work. I won't get offended! My public projects are almost always meant to solve the most common problems; I try to make it easy to go deeper by either forking my work or extending it.
   <p markdown="1" class="pquote-credit">
 — @geerlingguy, ["Why I Close PRs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
 </aside>
 
-The same applies to a user who really wants a solution that you simply don't have the bandwidth to build. Offering APIs and customization hooks can help others meet their own needs, without having to modify the source directly. @orta [found that](http://artsy.github.io/blog/2016/07/03/handling-big-projects/) encouraging plugins for CocoaPods led to "some of the most interesting ideas":
+The same applies to a user who really wants a solution that you simply don't have the bandwidth to build. Offering APIs and customization hooks can help others meet their own needs, without having to modify the source directly. @orta [found that](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encouraging plugins for CocoaPods led to "some of the most interesting ideas":
 
 > It's almost inevitable that once a project becomes big, maintainers have to become a lot more conservative about how they introduce new code. You become good at saying "no", but a lot of people have legitimate needs. So, instead you end up converting your tool into a platform.
 
@@ -219,10 +225,10 @@ Set up automatic tests that will run on all incoming contributions, and ensure t
 If you add tests, make sure to explain how they work in your CONTRIBUTING file.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars3.githubusercontent.com/u/812892?v=3&s=460" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/edunham?s=180" class="pquote-avatar" alt="avatar">
   I believe that tests are necessary for all code that people work on. If the code was fully and perfectly correct, it wouldn't need changes – we only write code when something is wrong, whether that's "It crashes" or "It lacks such-and-such a feature". And regardless of the changes you're making, tests are essential for catching any regressions you might accidentally introduce.
   <p markdown="1" class="pquote-credit">
-— @edunham, ["Rust's Community Automation"](http://edunham.net/2016/09/27/rust_s_community_automation.html)
+— @edunham, ["Rust's Community Automation"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
   </p>
 </aside>
 
@@ -230,13 +236,15 @@ If you add tests, make sure to explain how they work in your CONTRIBUTING file.
 
 The good news about maintaining a popular project is that other maintainers have probably faced similar issues and built a solution for it.
 
-There are a [variety of tools available](https://github.com/integrations) to help automate some aspects of maintenance work. A few examples:
+There are a [variety of tools available](https://github.com/showcases/tools-for-open-source) to help automate some aspects of maintenance work. A few examples:
 
 * [semantic-release](https://github.com/semantic-release/semantic-release) automates your releases
 * [mention-bot](https://github.com/facebook/mention-bot) mentions potential reviewers for pull requests
 * [Danger](https://github.com/danger/danger) helps automate code review
 
-For bug reports and other common contributions, GitHub has [Issue Templates and Pull Request Templates](https://github.com/blog/2111-issue-and-pull-request-templates), which you can create to streamline the communication you receive. You can also set up [email filters](https://github.com/blog/2203-email-updates-about-your-own-activity) to manage your email notifications.
+For bug reports and other common contributions, GitHub has [Issue Templates and Pull Request Templates](https://github.com/blog/2111-issue-and-pull-request-templates), which you can create to streamline the communication you receive. @TalAter made a [Choose Your Own Adventure guide](https://www.talater.com/open-source-templates/#/) to help you write your issue and PR templates.
+
+To manage your email notifications, you can set up [email filters](https://github.com/blog/2203-email-updates-about-your-own-activity) to organize by priority.
 
 If you want to get a little more advanced, style guides and linters can standardize project contributions and make them easier to review and accept.
 
@@ -252,12 +260,12 @@ Perhaps you're feeling overwhelmed or a growing sense of dread when you think ab
 
 Burnout is a real and pervasive issue in open source work, especially among maintainers. As a maintainer, your happiness is a non-negotiable requirement for the survival of any open source project.
 
-Although it should go without saying, take a break! You shouldn't have to wait until you feel burned out to take a vacation. @brettcannon, a Python core developer, decided to take [a month-long vacation](http://www.snarky.ca/why-i-took-october-off-from-oss-volunteering) after 14 years of volunteer OSS work.
+Although it should go without saying, take a break! You shouldn't have to wait until you feel burned out to take a vacation. @brettcannon, a Python core developer, decided to take [a month-long vacation](https://snarky.ca/why-i-took-october-off-from-oss-volunteering/) after 14 years of volunteer OSS work.
 
 Just like any other type of work, taking regular breaks will keep you refreshed, happy, and excited about your work.
 
 <aside markdown="1" class="pquote">
-  <img src="https://avatars1.githubusercontent.com/u/36432?v=3&s=400" class="pquote-avatar" alt="avatar">
+  <img src="https://avatars.githubusercontent.com/danielbachhuber?s=180" class="pquote-avatar" alt="avatar">
   In maintaining WP-CLI, I've discovered I need to make myself happy first, and set clear boundaries on my involvement. The best balance I've found is 2-5 hours per week, as a part of my normal work schedule. This keeps my involvement a passion, and from feeling too much like work. Because I prioritize the issues I'm working on, I can make regular progress on what I think is most important.
   <p markdown="1" class="pquote-credit">
 — @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
